@@ -40,18 +40,13 @@ embed {
 /*======= Estilos Principais =======*/
 
 .header {
-
-
-
-}
-
-nav {
   width: 100%;
   height: 80px;
   float: left;
   margin-bottom: 1.5em;
-  background-color: #323232;  
+  background-color: #323232; 
 }
+
 
 .menu ul{
   float: right;
@@ -72,8 +67,8 @@ nav {
 .logo {
   float: left;
   margin-top: 5px;
-  /*width: 0,060761347%;   83 / 1366 */
-  background: url('dirt/images/logo.png');
+  width: 0,060761347%;   /*83 / 1366 */
+
 }
 
 .btn-entrar{
