@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="38px" viewBox="0 0 35 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Lupa 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Patterns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-1203.000000, -33.000000)" fill="#FF942F">
+            <g id="Menu" sketch:type="MSLayerGroup" transform="translate(0.000000, 3.000000)">
+                <g id="campo-pesquisa" transform="translate(868.000000, 26.000000)" sketch:type="MSShapeGroup">
+                    <g id="Lupa-2" transform="translate(335.000000, 4.000000)">
+                        <path d="M18.4526101,23.2344044 L29.5148684,37.3048664 C29.9049096,37.800973 30.812786,37.8975285 31.5598483,37.5116546 L33.5541437,36.4815577 C34.2935137,36.099657 34.5769948,35.3882655 34.1866595,34.8917848 L22.9193037,20.5604523 C25.3307581,18.3803 26.8210034,15.3755502 26.8210034,12.0578427 C26.8210034,5.39848005 20.8169173,0 13.4105017,0 C6.00408613,0 0,5.39848005 0,12.0578427 C0,18.7172053 6.00408613,24.1156853 13.4105017,24.1156853 C15.1939312,24.1156853 16.8960504,23.8026688 18.4526101,23.2344044 Z M21.4516129,12.1818202 C21.4516129,8.25725062 17.9132182,5.0757584 13.5483871,5.0757584 C9.18355601,5.0757584 5.64516129,8.25725062 5.64516129,12.1818202 C5.64516129,16.1063897 9.18355601,19.2878819 13.5483871,19.2878819 C17.9132182,19.2878819 21.4516129,16.1063897 21.4516129,12.1818202 Z" id="Lupa"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>icn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-636.000000, -299.000000)" fill="#6B6B6B">
+            <g id="icn-2" sketch:type="MSLayerGroup" transform="translate(562.000000, 299.000000)">
+                <g id="icn" transform="translate(74.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M50,0 C22.3877778,0 0,22.3877778 0,50 C0,77.6122222 22.3877778,100 50,100 C77.6122222,100 100,77.6122222 100,50 C100,22.3877778 77.6122222,0 50,0 L50,0 Z M16.1111111,33.5477778 L25.5288889,32.3188889 L29.8566667,23.8744444 L33.9233333,32.4366667 L43.3,33.9366667 L36.4044444,40.4588889 L37.8755556,49.8344444 L29.5422222,45.3077778 L21.0888889,49.5988889 L22.82,40.2655556 L16.1111111,33.5477778 L16.1111111,33.5477778 Z M50,82.2233333 C36.05,82.2233333 24.75,71.2033333 24.1155556,57.4088889 L75.8844444,57.4088889 C75.25,71.2033333 63.9511111,82.2233333 50,82.2233333 L50,82.2233333 Z M78.4666667,49.8333333 L70.1344444,45.3066667 L61.68,49.5977778 L63.4111111,40.2644444 L56.7011111,33.5477778 L66.1188889,32.3188889 L70.4466667,23.8744444 L74.5155556,32.4366667 L83.8922222,33.9366667 L76.9966667,40.4588889 L78.4666667,49.8333333 L78.4666667,49.8333333 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

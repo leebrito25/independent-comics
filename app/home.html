@@ -28,15 +28,20 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
 
+
+    <!-- Adicionando jquery normalmente. Caminho relativo (você precisa baixar o jquery para seu servidor) -->
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+
+
         <!-- Page styles -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
 
   </head>
   <body>
     <!-- Add your site or app content here -->
 
-<div class="container"> 
+<div class="container clearfix"> 
 
   <header id="menu" class="header"> 
 
@@ -45,21 +50,21 @@
 
     <nav class="menu">
       <ul>
-        <li class="menu-item"><a src="">QUADRINHOS</a></li>
-        <li class="menu-item"><a src="">AUTORES</a></li>
-        <li class="menu-item"><a src="">SOBRE</a></li>
+        <li class="menu-item"><a href="#">QUADRINHOS</a></li>
+        <li class="menu-item"><a href="#">AUTORES</a></li>
+        <li class="menu-item"><a href="#">SOBRE</a></li>
       </ul>
 
    
 
     <div class="login">
-      <button class="btn-entrar"> Entrar </button>
+      <a href="#"><button class="btn-entrar"> Entrar </button><a>
     </div>
 
     <div class="pesquisa">
       <input type="search" class="caixa-pesquisa" name="pesquisa" value="procure por histórias e autores incríveis">
 
-      <button class="btn-pesquisa"> Pesquisar </button>
+      <a href="#" class="btn-pesquisa"><img src="images/icons/lupa.svg"></a>
     </div>
     
     </nav>
@@ -67,98 +72,151 @@
 
   </header>
 
-  <div class="call-action">
-
-    <h1> Leia, compartilhe, publique! </h1>
-    <p>A Independent Comics é uma plataforma para leitores e criadores de quadrinhos independentes. Com ela você tem diversas vantagens, e o melhor de tudo: é gratuito!</p>
-
+  <div class="call-action ">
+  
+      <h1> Leia, compartilhe, publique! </h1>
+      <p>A Independent Comics é uma plataforma para leitores e criadores de quadrinhos independentes. Com ela você tem diversas vantagens, e o melhor de tudo: é gratuito!</p>
+  
     <div class="features-container">
       <div class="feature">
-        <img src=" ">
+        <img src="images/responsive.svg">
         <h2> Em todos os lugares </h2>
         <p> Leia as suas histórias preferidas  no tablet, celular e computador.</p> 
       </div>
       
       <div class="feature">
-        <img src=" ">
+        <img src="images/happy.svg">
         <h2> Histórias Incríveis </h2>
         <p> Você tem na palma da mão histórias de diversos genêros.</p> 
       </div>
       
       <div class="feature">
-        <img src=" ">
+        <img src="images/book-pencil.png">
         <h2> Compartilhe as suas histórias </h2>
         <p> Você pode contar as suas histórias. É rápido e sem custo algum. </p>
       </div>
-
+    
     </div>
 
-    <a class="link-secundario" href=""> Saiba mais! </a>
+    <div class="saiba-mais">
+      <a href=""> Saiba mais! </a>
+    </div>
 
-    <button class"btn-cadastro"> Se cadastrar! </button>
+    <div class="cadastro">
+      <a href="" class="btn-cadastro">Cadastre-se</a>
+    </div>
 
   </div>
 
-  <main class="home-content">
+  <main class="content-container">
 
-    <h2>Quadrinhos</h2>
+  <h2> QUADRINHOS </h2>
 
     <div id="slider" class="banner"> </div>
 
     <div class="quadrinhos-home">
 
-      <div class="tabs-home">
+      <div class="tabs">
+        <ul class="tab-links">
+          <li class="active"><a href="#tab1"> Mais lidos </a></li>
+          <li><a href="#tab2"> Mais recentes </a></li>
+        </ul>
 
-        <a class="tab" href=""> Mais lidos </a>
-        <a class="tab" href=""> Mais recentes </a>
+          <div id="tab1" class="tab active">
+            <div class"destaque-quadrinho-home">
+              <img src="">
+              <h3> História</h3>
+              <p> A Independent Comics é uma plataforma para leitores e criadores de quadrinhos independentes. Com ela você tem diversas vantagens, e o melhor de tudo: é gratuito! </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 1 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 2 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 3 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 4 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 5 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 6 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+          </div>
+
+
+          <div id="tab2" class="tab">
+            <div class"destaque-quadrinho-home">
+              <img src="">
+              <h3> História </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 1 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 2 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 3 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 4 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 5 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+
+            <div class"item-quadrinho-home">
+              <img src="">
+              <h3> História 6 </h3>
+              <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
+            </div>
+          </div>
+
+
+            <a href=""> mais </a>
 
       </div>
 
-      <div class"destaque-quadrinho-home">
-        <img src="">
-        <h3> História </h3>
-        <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
-      </div>
-
-      <div class"item-quadrinho-home">
-        <img src="">
-        <h3> História 1 </h3>
-        <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
-      </div>
-
-      <div class"item-quadrinho-home">
-        <img src="">
-        <h3> História 2 </h3>
-        <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
-      </div>
-
-      <div class"item-quadrinho-home">
-        <img src="">
-        <h3> História 3 </h3>
-        <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
-      </div>
-
-      <div class"item-quadrinho-home">
-        <img src="">
-        <h3> História 4 </h3>
-        <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
-      </div>
-
-      <div class"item-quadrinho-home">
-        <img src="">
-        <h3> História 5 </h3>
-        <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
-      </div>
-
-      <div class"item-quadrinho-home">
-        <img src="">
-        <h3> História 6 </h3>
-        <p> A história de uma gata muito sapenca se metendo em altas aventuras. </p>
-      </div>
-
-      <a href=""> mais </a>
-
-      </div>
+    </div>
 
     <h2> Autores </h2>
 
@@ -192,7 +250,9 @@
     <h2> Gostou? </h2>
     <p>Cadastre-se e tenha acesso a esse mundo de histórias incríveis. Aproveita que é grátis :) </p>
 
-    <button class"btn-cadastro"> Se cadastrar! </button>
+    <div class="cadastro">
+      <a href="#"><button class="btn-cadastro"> Cadastre-se! </button></a>
+    </div>
 
   </div>
 
@@ -216,6 +276,7 @@
   </footer>
 
 </div>
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
