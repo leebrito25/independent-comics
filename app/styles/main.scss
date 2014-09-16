@@ -263,8 +263,7 @@ h4 {
 
 .feature img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .saiba-mais{
@@ -331,63 +330,110 @@ h4 {
 }
 
 .tabs {
-    width:100%;
-    display:inline-block;
+  width:100%;
+  display:inline-block;
+}
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+  display:block;
+  clear:both;
+  content:'';
 }
  
-    /*----- Tab Links -----*/
-    /* Clearfix */
-    .tab-links:after {
-        display:block;
-        clear:both;
-        content:'';
-    }
- 
-    .tab-links li {
-        margin:0px 5px;
-        float:left;
-        list-style:none;
-    }
- 
-        .tab-links a {
-            padding:9px 15px;
-            display:inline-block;
-            border-radius:3px 3px 0px 0px;
-            background:#7FB5DA;
-            font-size:16px;
-            font-weight:600;
-            color:#4c4c4c;
-            transition:all linear 0.15s;
-        }
- 
-        .tab-links a:hover {
-            background:#a7cce5;
-            text-decoration:none;
-        }
- 
-    li.active a, li.active a:hover {
-        background:#fff;
-        color:#4c4c4c;
-    }
- 
-    /*----- Content of Tabs -----*/
-    .tab-content {
-        padding:15px;
-        border-radius:3px;
-        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
-        background:#fff;
-    }
- 
-        .tab {
-            display:none;
-        }
- 
-        .tab.active {
-            display:block;
-        }
+.tab-links{
+  padding: 0;
+  margin: 0;
 
+}
 
+.tab-links li {
+  margin-right:5px;
+  float:left;
+  list-style:none;
+}
+        
+.tab-links a {
+  padding:9px 15px;
+  width: 240px;
+  text-align: center;
+  display:inline-block;
+  background:#F5F5D6;
+  font-size:2.6em;
+  font-weight:600;
+  color:#262626;
+  transition:all linear 0.15s;
+}
+ 
+.tab-links a:hover {
+  background:#456AED;
+  color: #F2F2F2;
+  text-decoration:none;
+}
+ 
+li.active a, li.active a:hover {
+  background:#262626;
+  color:#F2F2F2;
+}
+ 
+/*----- Content of Tabs -----*/
+.tab-content {
+  width: 100%
+}
 
+.tab-content h3 {
+  margin-top: 15px;
+  line-height: 1;
+}
+
+.tab-content p {
+  margin: 0.5em 0;
+}
+ 
+.tab {
+  display:none;
+
+}
+ 
+.tab.active {
+  display:block;
+}
+
+.destaque-quadrinho{
+  float: left;
+  margin-top:70px;
+  width: 34.09090909%; /*360/1056*/
+  margin-left: 1.89393939%; /*20/1056*/
+  margin-right:8%; /*feeling*/
+}
+
+.destaque-quadrinho img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.coluna-itens{
+  margin-top:40px;
+  float: left;
+  width: 24.62121212%; /*260/1056*/
+  margin-right:6%; /*feeling*/
+}
+
+.coluna-itens:last-child  {
+  margin-right: 0;
+}
+
+.item-quadrinho-home{
+  margin-bottom: 30px
+}
+
+.item-quadrinho-home img {
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
 
 
 footer {
