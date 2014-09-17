@@ -230,6 +230,7 @@ h4 {
   text-align: center;
 }
 
+
 .call-action p{
   text-align: center;
 }
@@ -343,7 +344,8 @@ h4 {
  
 .tab-links{
   padding: 0;
-  margin: 0;
+  margin-top: 15px;
+  background-color: #F5F5D6;
 
 }
 
@@ -384,6 +386,7 @@ li.active a, li.active a:hover {
 .tab-content h3 {
   margin-top: 15px;
   line-height: 1;
+  text-align: center;
 }
 
 .tab-content p {
@@ -401,7 +404,7 @@ li.active a, li.active a:hover {
 
 .destaque-quadrinho{
   float: left;
-  margin-top:70px;
+  margin-top:40px;
   width: 34.09090909%; /*360/1056*/
   margin-left: 1.89393939%; /*20/1056*/
   margin-right:8%; /*feeling*/
@@ -413,32 +416,126 @@ li.active a, li.active a:hover {
   border-radius: 4px;
 }
 
+.destaque-quadrinho a:hover{
+  text-decoration: none;
+  color: #3550B0; 
+}
+
 .coluna-itens{
   margin-top:40px;
+  margin-bottom: 20px;
   float: left;
   width: 24.62121212%; /*260/1056*/
   margin-right:6%; /*feeling*/
+}
+
+.coluna-itens a:hover{
+  text-decoration: none;
+  color: #3550B0; 
 }
 
 .coluna-itens:last-child  {
   margin-right: 0;
 }
 
-.item-quadrinho-home{
-  margin-bottom: 30px
-}
-
-.item-quadrinho-home img {
+.coluna-itens img {
   margin-bottom: 10px;
   display: block;
   margin: 0 auto;
   border-radius: 4px;
 }
 
+.coluna-itens p {
+  margin-bottom: 30px;
+}
+
+.link-mais {
+  float: right;
+  margin-bottom: 30px;
+  font-size: 3.0em;
+}
+
+/*Autores*/
+
+.autores {
+  float:left;
+  margin: 15px 30px 5.710102%; /*78/1366*/
+  /* Rectangle 98: */
+  background: #F2F2F2;
+  -moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.50);
+  box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.item-autor-home {
+  float: left;
+  width: 30.603805%; /*370/1209*/
+  margin-right: 2.48139%; /*30/1209*/
+}
+
+.item-autor-home:first-child {
+  margin-left: 1.571547%; /*19/1209*/
+}
+
+.item-autor-home:last-child {
+  margin-right: 1.571547%; /*19/1209*/
+}
+
+.item-autor-home a:hover {
+  text-decoration: none;
+  color: #3550B0; 
+}
+.item-autor-home h3 {
+  line-height: 1;
+  margin: 20px 0;
+}
+
+.item-autor-foto {
+  float: left;
+  margin-right: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.item-autor-foto img {
+  display: block;
+  border-radius: 4px;
+}
+
+
+.call-action-foo{
+  float: left;
+  margin: 0 27.086384%; /*370/1366*/
+  width: 45.827232%;
+}
+
+
+.call-action-foo h2{
+  text-align: center;
+}
+
+.call-action-foo p{
+  text-align: center;
+}
+
+.call-action-foo a{
+  text-align: center;
+  display: block;
+}
+
+
 
 footer {
-float: left;
-width: 100%;
+  width: 100%;
+  height: 100px;
+  float: left;
+  padding: 0 4em;
+  margin-top: 2em;
+  background-color: #323232; 
+  overflow: hidden;
+}
+
+footer li{
+  display: inline-block;
 
 }
 
