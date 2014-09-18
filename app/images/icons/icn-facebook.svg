@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-600.000000, -2845.000000)">
+            <g id="Footer-2" sketch:type="MSLayerGroup" transform="translate(0.000000, 2790.000000)">
+                <rect id="fundo" fill="#323232" sketch:type="MSShapeGroup" x="0" y="0" width="1366" height="200"></rect>
+                <g id="facebook" transform="translate(600.000000, 55.000000)" sketch:type="MSShapeGroup">
+                    <g id="hover">
+                        <path d="M20,40 C31.045695,40 40,31.045695 40,20 C40,8.954305 31.045695,0 20,0 C8.954305,0 0,8.954305 0,20 C0,31.045695 8.954305,40 20,40 Z" id="Oval-29" fill="#F3F3F3"></path>
+                        <g id="facebook-3" transform="translate(14.000000, 10.000000)" fill="#252525">
+                            <g id="facebook_1_">
+                                <path d="M4.61011846,0.52934573 C3.73391876,0.94625787 3.12031896,1.50366119 2.78387908,2.18741535 C2.46927918,2.83011688 2.31535923,3.73966044 2.31535923,4.97351967 L2.31535923,5.39316865 L0.0492,5.39316865 L0.0492,9.40674624 L2.31535923,9.40674624 L2.31535923,20.1210233 L7.7607974,20.1210233 L7.7607974,9.40720238 L10.8105964,9.40720238 L10.8105964,5.39362479 L7.7607974,5.39362479 L7.7607974,5.0373793 C7.7607974,4.26422166 7.94175734,4.06990594 7.96411733,4.04892349 C8.08111729,3.93853756 8.3556772,3.87787092 8.73475707,3.87787092 C9.27607688,3.87787092 9.85327669,3.93990598 10.4497165,4.06534454 L11.1407963,4.20994098 L11.944716,0.57541589 L11.3623162,0.414398401 C9.00203698,-0.23605752 6.2777579,-0.264338212 4.61011846,0.52934573 L4.61011846,0.52934573 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

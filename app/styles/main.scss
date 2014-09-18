@@ -187,7 +187,7 @@ a:visited {
 
 p{
   font-family: 'Source Serif Pro', serif; 
-  font-size: 2.0em;
+  font-size: 2.2em;
   font-weight: 400;
 
 }
@@ -459,7 +459,9 @@ li.active a, li.active a:hover {
 
 .autores {
   float:left;
-  margin: 15px 30px 5.710102%; /*78/1366*/
+  width: 100%;
+  margin-top: 15px; 
+  margin-bottom:30px;
   /* Rectangle 98: */
   background: #F2F2F2;
   -moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.50);
@@ -492,8 +494,8 @@ li.active a, li.active a:hover {
 .item-autor-foto {
   float: left;
   margin-right: 1em;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 .item-autor-foto img {
@@ -526,19 +528,82 @@ li.active a, li.active a:hover {
 
 footer {
   width: 100%;
-  height: 100px;
+  height: 200px;
   float: left;
-  padding: 0 4em;
+  padding: 0 4em 4em 4em;
   margin-top: 2em;
   background-color: #323232; 
   overflow: hidden;
 }
 
-footer li{
-  display: inline-block;
-
+footer ul{
+  text-align: center;
+  padding: 0;
 }
 
+footer li{
+  display: inline-block;
+}
+
+.redes-sociais ul {
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+
+.redes-sociais li {
+  margin: 0 10px;
+}
+
+.redes-sociais a{
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.facebook-footer {
+ background: url(/images/icons/icn-facebook.svg);
+}
+
+.facebook-footer:hover {
+ background: url(/images/icons/icn-facebook-hover.svg);
+}
+
+.twitter-footer {
+ background: url(/images/icons/icn-twitter.svg);
+}
+
+.twitter-footer:hover {
+  background: url(/images/icons/icn-twitter-hover.svg);
+}
+
+.google-footer {
+  background: url(/images/icons/icn-google.svg);
+}
+
+.google-footer:hover {
+  background: url(/images/icons/icn-google-hover.svg);
+}
+
+.links-footer a {
+  color: #F2F2F2;
+  font-size:2.2em; 
+}
+
+.item-footer {
+  margin:0 35px;
+}
+
+
+.btn-topo{
+  float: right;
+  z-index: 100;
+  background: url(/images/btn-topo.svg);
+}
+.btn-topo a{
+  display: block;
+  width: 40px;
+  height: 40px;
+}
 
 
 /*.promote-layer {
