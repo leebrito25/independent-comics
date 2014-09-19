@@ -18,6 +18,20 @@
   margin:0;
 }
 
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+  overflow: auto;
+  }
+     
+.clearfix:after {
+  clear: both;
+  }
+     
+.clearfix {
+  *zoom: 1;
+  }
 
 html,
 body {
@@ -33,6 +47,7 @@ body {
 }
 
 .container {
+  position: relative;
   max-width: 1366px;
 }
 
@@ -45,14 +60,15 @@ embed {
 
 /*======= Estilos Principais =======*/
 
-.header {
+header {
   width: 100%;
   height: 100px;
   float: left;
-  margin-bottom: 2em;
   padding: 0 4em;
-  background-color: #323232; 
+  background-color: #323232;
   overflow: hidden;
+  position:fixed;
+  z-index: 1000;
 }
 
 /*Logo*/
@@ -224,6 +240,7 @@ h4 {
 .call-action{
   float: left;
   margin: 0 12.445095%; /*170/1366*/
+  margin-top: 100px;
 }
 
 .call-action h1{
@@ -508,6 +525,7 @@ li.active a, li.active a:hover {
   float: left;
   margin: 0 27.086384%; /*370/1366*/
   width: 45.827232%;
+  margin-bottom: 2em;
 }
 
 
@@ -531,7 +549,6 @@ footer {
   height: 200px;
   float: left;
   padding: 0 4em 4em 4em;
-  margin-top: 2em;
   background-color: #323232; 
   overflow: hidden;
 }
@@ -606,34 +623,91 @@ footer li{
 }
 
 
-/*.promote-layer {
-  /*
-  This may promote the layer to a composited
-  layer.
-
-  Replace with will-change when available
-
-  #perfmatters
-  
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}*/
 
 
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-  overflow: auto;
-  }
-     
-.clearfix:after {
-  clear: both;
-  }
-     
-.clearfix {
-  *zoom: 1;
-  }
+
+
+
+.header-internas {
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+}
+
+.plugin-social{
+  display: block;
+}
+
+
+.plugin-social li{
+  display: inline-block;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 2.6em;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.plugin-social li:first-child {
+  margin-right: 20px;
+}
+
+.plugin-social li:last-child {
+  margin-right: 0;
+}
+
+.plugin-social a{
+  display: block;
+  width: 30px;
+  height:30px;
+
+}
+
+.p-facebook{
+  background: url(/images/social/plugin-facebook.svg);
+  border-radius: 4px;
+}
+
+.p-twitter{
+  background: url(/images/social/plugin-twitter.svg);
+  border-radius: 4px;
+}
+
+.p-google{
+  background: url(/images/social/plugin-google.svg);
+  border-radius: 4px;
+}
+
+.p-pinterest{
+  background: url(/images/social/plugin-pinterest.svg);
+  border-radius: 4px; 
+}
+
+/*Página de quadrinhos*/
+
+.quadrinhos{
+  position: relative;
+  background-image: url(/images/quadrinhos/header-quadrinhos.jpg);
+}
+
+.quadrinhos h1 {
+  position: relative;
+  margin-left: 4em;
+  top: 170px;
+}
+
+.quadrinhos p {
+  position: relative;
+  margin-left: 6.2em;
+  top: 160px;
+}
+
+.plugin {
+  float: right;
+  margin-top: 3em;
+  margin-right: 6em;
+}
+
 
 /*======= Media Queries =======*/
 

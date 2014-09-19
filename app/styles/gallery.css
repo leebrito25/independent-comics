@@ -285,10 +285,10 @@
 }
 
 .items-5.autoplay .control-button {
-  animation: controlAnimation-5 5s infinite;
+  animation: controlAnimation-5 35s infinite;
 }
 .items-5.autoplay .item {
-  animation: galleryAnimation-5 5s infinite;
+  animation: galleryAnimation-5 35s infinite;
 }
 .items-5 .control-button:nth-of-type(1),
 .items-5 .item:nth-of-type(1) {
