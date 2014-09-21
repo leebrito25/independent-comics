@@ -610,7 +610,6 @@ footer li{
   margin:0 35px;
 }
 
-
 .btn-topo{
   float: right;
   z-index: 100;
@@ -621,12 +620,6 @@ footer li{
   width: 40px;
   height: 40px;
 }
-
-
-
-
-
-
 
 .header-internas {
   margin-top: 100px;
@@ -683,6 +676,140 @@ footer li{
   border-radius: 4px; 
 }
 
+.container-breadcrumbs {
+  padding: 2em 5em;
+  width: 100%;
+}
+
+.container-breadcrumbs li{
+  display: inline-block;
+  font-size: 2.4em;
+  margin-right: 0.5em;
+}
+
+.breadcrumb {
+  color: #6B6B6B;
+}
+
+
+.filtros {
+  float: left;
+  width: 19.033675%; /*260/1366*/
+  margin-right: 3.6603221%; /*50/1366*/
+  margin-left: 6.7349927%; /*92/1366*/
+  background: #F5F5D6;
+}
+
+.filtro-title {
+  background: #6B6B6B;
+}
+
+.filtro-title p {
+  color: #F2F2F2;
+  display: block;
+  font-size: 2.4em;
+  text-align: center;
+  font-family: 'Hind', Arial, sans-serif;
+  margin: 0;
+  line-height: 2em;
+}
+
+.filtro-lista {
+  margin-bottom: 1em;
+}
+
+.filtro-lista ul {
+  list-style: none;
+  padding: 0;
+}
+
+.filtro-lista li{
+  padding-left: 1em;
+  font-size: 2.4em;
+  margin: 0.2em 0;
+}
+
+.filtro-lista input[type=radio] {
+  margin-right: 0.2em;
+}
+
+.filtro-lista input[type=checkbox] {
+  margin-right: 0.2em;
+}
+
+.titulo-ordem{
+  color: #262626;
+  display: block;
+  font-size: 2.8em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.titulo-genero{
+  color: #BF621E;
+  display: block;
+  font-size: 2.8em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.filtros a {
+  color: #6B6B6B;
+  display: block;
+  text-align: center;
+  font-family: 'Hind', Arial, sans-serif;
+  margin: 0;
+  line-height: 1em;
+}
+
+.lista-2col {
+  float: right;
+  width: 66.178624%; /*837/1366*/
+  margin-right: 4.392387%; /*60/1366*/
+}
+
+.coluna-lista{
+  float: left;
+  margin-right: 4%;
+  width: 48%;
+}
+
+.coluna-lista:last-child{
+  float: right;
+  margin-right: 0px;
+
+}
+.item-lista{
+  margin: 10px;
+  height: 120px
+}
+
+.item-lista a{
+  text-decoration: none;
+}
+
+.item-lista:hover{
+  border-radius: 4px;
+  background: #F2F2F2;
+
+}
+
+
+.item-lista h2{
+
+
+}
+
+.item-lista-foto {
+  float: left;
+  margin:5px;
+}
+
+.item-lista-foto img {
+  display: block;
+  border-radius: 4px;
+}
+
 /*Página de quadrinhos*/
 
 .quadrinhos{
@@ -707,6 +834,8 @@ footer li{
   margin-top: 3em;
   margin-right: 6em;
 }
+
+
 
 
 /*======= Media Queries =======*/
