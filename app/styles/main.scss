@@ -474,7 +474,7 @@ li.active a, li.active a:hover {
 
 /*Autores*/
 
-.autores {
+.autores-home {
   float:left;
   width: 100%;
   margin-top: 15px; 
@@ -818,20 +818,33 @@ footer li{
   font-size: 2.4em;
 }
 
-/*Página de quadrinhos*/
+.loading {
+float: left;
+margin: 2em 0;
+width: 100%;
+
+}
+
+.loading img {
+display: block;
+margin: 0 auto;
+
+}
+
+/*Página de quadrinhos e autores*/
 
 .quadrinhos{
   position: relative;
   background-image: url(/images/quadrinhos/header-quadrinhos.jpg);
 }
 
-.quadrinhos h1 {
+.header-internas h1 {
   position: relative;
   margin-left: 4em;
   top: 170px;
 }
 
-.quadrinhos p {
+.header-internas p {
   position: relative;
   margin-left: 6.2em;
   top: 160px;
@@ -842,6 +855,12 @@ footer li{
   margin-top: 3em;
   margin-right: 6em;
 }
+
+.autores{
+  position: relative;
+  background-image: url(/images/autores/header-autores.jpg);
+}
+
 
 
 
