@@ -780,7 +780,7 @@ footer li{
 
 }
 .item-lista{
-  margin: 10px;
+  margin: 0px 10px 30px 10px;
   height: 120px;
   padding: auto 0;
 }
@@ -861,6 +861,12 @@ margin: 0 auto;
   background-image: url(/images/autores/header-autores.jpg);
 }
 
+/*Página de história e autor*/
+
+.historia{
+  position: relative;
+  background-image: url(/images/historia/header-historia.jpg);
+}
 
 
 
