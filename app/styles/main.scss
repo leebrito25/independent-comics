@@ -863,32 +863,148 @@ margin: 0 auto;
 
 /*Página de história e autor*/
 
+
+.header-internas1 {
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+}
+
 .historia{
   position: relative;
   background-image: url(/images/historia/header-historia.jpg);
 }
 
-.historia h1{
-  float: left;
-
+.infos-interna {
+  display: block;
+  width: 60%;
+  position:relative;
+  padding: 5.5em 7em;
 
 }
 
-.infos-interna {
-  width: 100%;
-  position:absolute;
-  padding: 10em 7em;
-
-
+.historia h1{
+  float: left;
+  margin-left: 40px;
+  line-height: 1;
+  margin-bottom: 20px;
+  width: 50%;
 }
 
 .foto-interna {
   float: left;
+}
+
+.foto-interna img {
+  border-radius: 4px;
+}
+
+.rating {
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  font-weight: 200;
+  font-size: 2.2em;
+  width: 50%;
+}
+
+.rating img {
+  margin-right: 20px;
+}
+
+.rating span {
+  vertical-align: middle;
+  line-height: 0;
+}
+
+.tags {
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+.tags ul {
+  padding: 0;
+
+}
+.tags li {
+  display: inline-block;
+  font-size: 2em;
+  color: #F2F2F2;
+  vertical-align: middle;
+  border-radius: 4px;
+  background: #456AED;
+  margin-right: 5px;
+  padding: 0 1em;
+}
+
+.info-autor{
+  float: left;
+  margin-left: 40px;
+  font-family: 'RobotoCondensed-Italic', Arial, sans-serif;
+  font-size: 2.4em;
+  width: 50%;
 
 }
 
+.info-autor a{
+  vertical-align: middle;
+  line-height: 0;
+  color: #6B6B6B;
+}
+
+ .info-autor img {
+  margin-left: 20px;
+}
+
+.interna-actions{
+  float: right;
+  width: 40%
 
 
+}
+
+.seguir {
+  float: right;
+  margin-right: 15em;
+  margin-top: 13em;
+  text-align: center;
+}
+
+.btn-seguir {
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  line-height: 40px;
+  border-radius: 8px;
+  background: #FF942F;
+  -moz-box-shadow:    0px 3px 0px 0px #BF621E;
+  box-shadow:         0px 3px 0px 0px #BF621E;
+  font-family: Hind-Semibold;
+  font-size: 3.2em;
+  color: #323232;
+}
+
+.btn-seguir a{
+  font-weight: 400;
+  text-decoration: none;
+  color: #323232;
+}
+
+.btn-seguir:hover{
+  background: #D47E2D;
+  text-decoration: none;
+  color: #323232;
+}
+
+.btn-seguir:active{
+  background: #C2602D;
+  box-shadow: none;
+  text-decoration: none;
+  color: #323232;
+}
 
 
 
