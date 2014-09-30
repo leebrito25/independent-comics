@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 74 + icn-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Patterns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-244.000000, -6182.000000)">
+            <g id="Rectangle-74-+-icn-facebook" sketch:type="MSLayerGroup" transform="translate(244.000000, 6182.000000)">
+                <rect id="Rectangle-74" fill="#494E52" sketch:type="MSShapeGroup" x="0" y="0" width="30" height="30" rx="4"></rect>
+                <g id="icn-facebook" transform="translate(11.000000, 5.500000)" fill="#F3F3F3" sketch:type="MSShapeGroup">
+                    <g id="facebook_1_">
+                        <path d="M8.65429412,1.59589744 C7.34294118,1.38923077 6.10676471,1.46923077 5.49317647,2.10923077 C5.10352941,2.51333333 4.91452941,3.17538462 4.91452941,4.13435897 L4.91452941,5.88153846 L8.02111765,5.88153846 L8.02111765,7.70205128 L4.91452941,7.70205128 L4.91452941,19.7492308 L2.14941176,19.7492308 L2.14941176,7.7025641 L-0.156705882,7.7025641 L-0.156705882,5.88205128 L2.14941176,5.88205128 L2.14941176,4.06358974 C2.14941176,2.88153846 2.27170588,2.00666667 2.51364706,1.46512821 C2.73335294,0.972307692 3.14047059,0.576410256 3.75988235,0.24974359 C4.97594118,-0.38974359 7.08776471,-0.4 8.96294118,0.0579487179 L8.65429412,1.59589744 L8.65429412,1.59589744 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

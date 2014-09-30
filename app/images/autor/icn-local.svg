@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="30px" viewBox="0 0 24 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>local</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Autor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-21.000000, -468.000000)" fill="#30302A">
+            <g id="Header" sketch:type="MSLayerGroup" transform="translate(-1.000000, 101.000000)">
+                <g id="localidade-2" transform="translate(22.000000, 206.000000)" sketch:type="MSShapeGroup">
+                    <g id="local" transform="translate(0.000000, 161.000000)">
+                        <g id="Your_Icon">
+                            <path d="M11.5567123,0 C5.18508219,0 0,4.9362 0,11.0034 C0,18.8493 9.88873973,29.0526 10.3103014,29.4825 C10.6319863,29.8125 11.0831644,30.0003 11.5567123,30.0003 C12.029,30.0003 12.4801781,29.8128 12.8028082,29.4825 C13.2243699,29.0529 23.1134247,18.8493 23.1134247,11.0034 C23.1131096,4.9359 17.9283425,0 11.5567123,0 L11.5567123,0 Z M6.99515068,10.6569 C6.99515068,8.2575 9.03742466,6.3123 11.5567123,6.3123 C14.076,6.3123 16.118274,8.2569 16.118274,10.6569 C16.118274,13.0557 14.0763151,15.0003 11.5567123,15.0003 C9.03773973,15 6.99515068,13.0554 6.99515068,10.6569 L6.99515068,10.6569 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
