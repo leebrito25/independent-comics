@@ -571,6 +571,7 @@ footer {
   padding: 0 4em 4em 4em;
   background-color: #323232; 
   overflow: hidden;
+  z-index: 2;
 }
 
 footer ul{
@@ -628,6 +629,11 @@ footer li{
 
 .item-footer {
   margin:0 35px;
+}
+
+.footer-cap {
+  float: right;
+  width: 70.717423% !important; /*966/1366*/
 }
 
 .btn-topo{
@@ -1235,36 +1241,74 @@ margin: 0 auto;
 /*Capítulos*/
 
 .capitulo{
-  margin-top: 100px;  
+  margin-top: 100px; 
+  padding: 2em 0 0 0; 
 
 }
 
 .rel-capitulos{
-  margin-top: 100px;  
+  margin-top: 100px;
+  width: 29.282577%; /*400/1366*/
+  height: 100% !important; 
+  position:fixed;
+  z-index: 1;
+  background: #FFFFFF;
+  -moz-box-shadow:    2px 0px 4px 0px rgba(0,0,0,0.50);
+  box-shadow:         2px 0px 4px 0px rgba(0,0,0,0.50);
 
 }
 
 .info-nome-img{
+  margin: 15px 30%; /*125/400*/
+  float: left;
+}
 
+.info-nome-img img{
+  border-radius: 4px;
+}
+
+.info-nome-img h2{
+  text-align: center;
+  margin-top: 5px;
 }
 
 .info-autor-img{
+  font-family: 'RobotoCondensed-Italic', Arial, sans-serif;
+  font-size: 2.4em;
+  margin: 15px 27%;
+  float: left;
 
 }
+
+.info-autor-img a{
+  vertical-align: middle;
+  line-height: 0;
+  color: #6B6B6B;
+}
+
+.info-autor-img img {
+  margin-left: 10px;
+}
+
+
 
 .lista-capitulos{
-
+  float: left;
+  margin: 15px 4%; /*10/400*/
 
 }
 
-.o-capitulo{
+.o-capitulo {
+  width: 70.717423%; /*966/1366*/
+  padding: 0 5.1759834% 0 2.5879917%; /*25/966*/ /*50/966*/
+}
 
-
-
+.o-capitulo h1{
+  margin-bottom: 0;
 }
 
 .quadro {
-
+  margin-bottom: 30px;
 
 }
 
@@ -1281,6 +1325,9 @@ margin: 0 auto;
 
   
 }
+
+/* Rectangle 22: */
+background: rgba(255,255,255,0.50);
 
 /*======= Media Queries =======*/
 
