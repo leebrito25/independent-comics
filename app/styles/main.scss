@@ -655,6 +655,7 @@ footer li{
 
 .plugin-social{
   display: block;
+
 }
 
 
@@ -1249,13 +1250,13 @@ margin: 0 auto;
 .rel-capitulos{
   margin-top: 100px;
   width: 29.282577%; /*400/1366*/
-  height: 100% !important; 
+  height: 86% !important; 
   position:fixed;
   z-index: 1;
   background: #FFFFFF;
   -moz-box-shadow:    2px 0px 4px 0px rgba(0,0,0,0.50);
   box-shadow:         2px 0px 4px 0px rgba(0,0,0,0.50);
-
+  overflow-y: scroll;
 }
 
 .info-nome-img{
@@ -1275,7 +1276,7 @@ margin: 0 auto;
 .info-autor-img{
   font-family: 'RobotoCondensed-Italic', Arial, sans-serif;
   font-size: 2.4em;
-  margin: 15px 27%;
+  margin: 15px 25%;
   float: left;
 
 }
@@ -1295,8 +1296,52 @@ margin: 0 auto;
 .lista-capitulos{
   float: left;
   margin: 15px 4%; /*10/400*/
+  width: 92%;
 
 }
+
+.item-capitulo{
+  margin: 0px 0px 10px 0px;
+  height: 80px;
+  padding: auto 0;
+
+}
+
+.item-capitulo a{
+  text-decoration: none;
+}
+
+.item-capitulo:hover{
+  border-radius: 4px;
+  background: #F2F2F2;
+
+}
+
+.item-capitulo h3{
+  margin: 0.3em 0 0.6em 0;
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+.item-capitulo p{
+  margin: 0.1em 0;
+  display: block;
+  float: left;
+}
+
+.item-capitulo-foto {
+  float: left;
+  margin:5px;
+}
+
+.item-capitulo-foto img {
+  display: block;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+
 
 .o-capitulo {
   width: 70.717423%; /*966/1366*/
@@ -1313,21 +1358,54 @@ margin: 0 auto;
 }
 
 .rating-cap{
-
+  margin-bottom: 30px;
+  width: 100%;
 }
 
-.social-cap{
 
-
+.rating-cap p {
+  font-family: 'Hind', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 2.2em;
+  text-align: center;
 }
+
+.rating-cap img {
+  margin: 0 auto;
+  display: block;
+}
+
+.social-cap {
+  margin-bottom: 30px;
+}
+
+.social-cap ul{
+ text-align: center;
+}
+
+
+
 
 .next-cap{
-
+  width: 70.717423% !important;
+  height: 100px;
+  background: #456AED;
+  float: right;
   
 }
 
-/* Rectangle 22: */
-background: rgba(255,255,255,0.50);
+.next-cap p {
+  font-family: 'Hind', Arial, sans-serif;
+  font-size: 4.0em;
+  color: #F2F2F2;
+  text-align: center;
+  font-weight: 600;
+  display: block;
+  margin: 3.8% 0;
+}
+
+/* Rectangle 22: 
+background: rgba(255,255,255,0.50);*/
 
 /*======= Media Queries =======*/
 
