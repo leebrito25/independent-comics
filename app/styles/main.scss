@@ -260,7 +260,7 @@ h4 {
 .call-action{
   float: left;
   margin: 0 12.445095%; /*170/1366*/
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .call-action h1{
@@ -792,7 +792,7 @@ footer li{
   display: block;
   text-align: center;
   font-family: 'Hind', Arial, sans-serif;
-  margin: 0;
+  margin: 15px 0;
   line-height: 1em;
 }
 
@@ -1178,7 +1178,7 @@ margin: 0 auto;
 
 .item-historia h3{
   margin: 0.3em 0 0.6em 0;
-  line-height: 2.5;
+  line-height: 2.8;
 }
 
 .item-historia p{
@@ -1200,8 +1200,12 @@ margin: 0 auto;
 .hist-relacionadas{
   float: right;
   width:30.551977%;
-
 }
+
+.hist-relacionadas p{
+  margin: 10px 0;
+}
+
 .lista-relacionados{
   width:70%;
 
@@ -1383,15 +1387,15 @@ margin: 0 auto;
  text-align: center;
 }
 
-
-
-
 .next-cap{
   width: 70.717423% !important;
   height: 100px;
   background: #456AED;
   float: right;
-  
+}
+
+.next-cap:hover{
+  background: #456AED;
 }
 
 .next-cap p {
@@ -1404,6 +1408,134 @@ margin: 0 auto;
   margin: 3.8% 0;
 }
 
+
+
+/*Sobre*/
+
+.content-features{
+  float: left;
+  width: 86.456808%;/*1181/1366*/
+  margin: 20px 6.771596% 0 6.771596%; /*width-100/2*/
+}
+
+.features-container-sobre{
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+  padding-right: 4em;
+  padding-left: 4em;
+  float: left;
+}
+
+.sobre-sub {
+  letter-spacing: 0.2em;
+}
+
+.banner-class{
+  float: left;
+  width: 100%;
+  height: 230px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.banner-class p{
+  position: relative;
+  margin-left: 2em;
+  top: 150px;
+  font-family:'Hind', Arial, sans-serif;
+  font-size: 2.8em;
+  color: #F2F2F2;
+  font-weight: 600;
+
+}
+
+.leitores{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/images/sobre/header-leitores.jpg);
+}
+
+.cartunistas{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/images/sobre/header-cartunistas.jpg);
+}
+
+
+.depoimentos{
+  float:left;
+  width: 86.456808%;/*1181/1366*/
+  margin: 0 6.771596%; /*width-100/2*/
+}
+
+.depoimentos-sobre {
+  float:left;
+  width: 100%;
+  margin-top: 15px; 
+  margin-bottom:30px;
+  /* Rectangle 98: */
+  background: #F2F2F2;
+  -moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.50);
+  box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.item-depoimento {
+  float: left;
+  width: 45.905707%; /*555/1272*/
+  margin-right: 2.48139%; /*30/1272*/
+}
+
+.item-depoimento:first-child {
+  margin-left: 1.571547%; /*19/1209*/
+}
+
+.item-depoimento:last-child {
+  margin-right: 1.571547%; /*19/1209*/
+}
+
+.item-depoimento h3 {
+  line-height: 1;
+  margin: 30px 0 20px 0 ;
+  display: block;
+}
+
+.item-depoimento-foto {
+  float: left;
+  margin-right: 2em;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.item-depoimento-foto img {
+  display: block;
+  border-radius: 4px;
+}
+
+.feature-review{
+  width: 25.699482%;/* 248 /950*/
+  float: left;
+  margin-right: 10.8421055%; /* 25.699482x3/2*/
+}
+
+.feature-review:last-child {
+  margin-right: 0;
+}
+
+.feature-review h3{
+  text-align: center;
+}
+
+.feature-review p{
+  text-align: center;
+}
+
+.feature-review img {
+  display: block;
+  margin: 0 auto 3em auto;
+}
 /* Rectangle 22: 
 background: rgba(255,255,255,0.50);*/
 
