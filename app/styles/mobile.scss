@@ -1,0 +1,37 @@
+
+/*======= Media Queries =======*/
+
+/** Medium Screens -  tablets **/
+
+
+@media all and (max-width: 1024px) {
+
+
+/*Menu*/ 
+
+.simple-toggle{
+  display: none;
+}
+
+.anchor-link {
+  display: block;
+  float: right;
+}
+
+ul.open{
+  display: block;
+  list-style: none outside none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -68,7 +68,7 @@ header {
   width: 100%;
   height: 100px;
   float: left;
-  padding: 0 4em;
+  padding: 0 3em;
   background-color: #323232;
   overflow: hidden;
   position:fixed;
@@ -86,15 +86,21 @@ header {
 
 /*Menu*/
 
+
+.anchor-link {
+  display: none;
+}
+
 .menu{
   float: left;
   width: 93.70424597364568%; /*1280/1366*/
   height: 100%;
 }
 
-.menu ul{
+.menu ul.simple-toggle{
   float: left;
-  margin-left: 4em;
+  margin-left: 6em;
+  padding: 0;
 }
 
 .menu li{
@@ -132,8 +138,8 @@ header {
 /*Botão Login*/
 
 .login {
-  float: left;
-  margin-left: 6em;
+  float: right;
+  margin-right: 6em;
   padding: 2.5em 0;
 }
 
@@ -173,7 +179,7 @@ header {
 }
 
 .caixa-pesquisa{
-  width: 315px;
+  width: 300px;
   height: 47px;
   border-radius: 4px;
   border-color: transparent;
@@ -1535,19 +1541,6 @@ margin: 0 auto;
 .feature-review img {
   display: block;
   margin: 0 auto 3em auto;
-}
-/* Rectangle 22: 
-background: rgba(255,255,255,0.50);*/
-
-/*======= Media Queries =======*/
-
-/** Larger Screens - desktops and tablets **/
-
-
-/*@media all and (min-width: 990px) {
-  .app-bar {
-    position: relative;
-  }
 }
 
 

@@ -37,7 +37,7 @@
         <!-- Page styles -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/mobile.css" media="handheld, screen and (max-width:1024px)">
     <link rel="stylesheet" href="styles/gallery.theme.css">
     <link rel="stylesheet" href="styles/gallery.css">
 
@@ -47,29 +47,49 @@
 
 <div class="container clearfix"> 
 
-  <header id="menu" class="header"> 
+  <header id="menu" class="header mobile"> 
 
     <a href="index.html" class="logo"><img src="images/logo.png" alt="Independent Comics"></a>
 
 
     <nav class="menu">
-      <ul>
+    <a class="anchor-link" href=""><img src=""> Menu </a>
+      <ul class="simple-toggle">
         <li class="menu-item"><a href="quadrinhos.html">QUADRINHOS</a></li>
         <li class="menu-item"><a href="autores.html">AUTORES</a></li>
         <li class="menu-item"><a href="sobre.html">SOBRE</a></li>
       </ul>
 
-   
+<script>
+$(document).ready(function() {
 
-    <div class="login">
-      <a href="#"><button class="btn-entrar"> Entrar </button><a>
-    </div>
+  $('#menu-toggle').click(function () {
+      $('#menu').toggleClass('open');
+      e.preventDefault();
+    });
+    
+});
+</script>
+
+
+
+
+
+
+
+
 
     <div class="pesquisa">
       <input type="search" class="caixa-pesquisa" name="pesquisa" value="procure por histórias e autores incríveis">
 
       <a href="#" class="btn-pesquisa"><img src="images/icons/lupa.svg"></a>
     </div>
+
+    <div class="login">
+      <a href="#"><button class="btn-entrar"> Entrar </button></a>
+    </div>
+
+
     
     </nav>
 
