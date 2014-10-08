@@ -47,29 +47,29 @@
 
 <div class="container clearfix"> 
 
-  <header id="menu" class="header mobile"> 
+  <header class="header mobile"> 
 
     <a href="index.html" class="logo"><img src="images/logo.png" alt="Independent Comics"></a>
 
 
     <nav class="menu">
-    <a class="anchor-link" href=""><img src=""> Menu </a>
-      <ul class="simple-toggle">
-        <li class="menu-item"><a href="quadrinhos.html">QUADRINHOS</a></li>
-        <li class="menu-item"><a href="autores.html">AUTORES</a></li>
-        <li class="menu-item"><a href="sobre.html">SOBRE</a></li>
+    <a id="menu-toggle" class="anchor-link" href="#"><img src=""> Menu </a>
+      <ul class="simple-toggle" id="menu">
+        <li><a href="quadrinhos.html">QUADRINHOS</a></li>
+        <li><a href="autores.html">AUTORES</a></li>
+        <li><a href="sobre.html">SOBRE</a></li>
       </ul>
 
-<script>
-$(document).ready(function() {
+    <script>
+      $(document).ready(function() {
 
-  $('#menu-toggle').click(function () {
+      $('#menu-toggle').click(function () {
       $('#menu').toggleClass('open');
       e.preventDefault();
-    });
+        });
     
-});
-</script>
+      });
+    </script>
 
 
 
