@@ -92,11 +92,8 @@ header {
   float: right;
   text-align: right; 
   text-align: center; 
-  margin-left: 1em;
-  padding-top: 2.7em;
-  padding-bottom: 2.5em;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
+  margin-left: 1.5em;
+  padding: 1.5em 0.5em;
   text-decoration: none !important; 
   color: #FF942F !important;
   font-size: 2.4em;
@@ -105,11 +102,7 @@ header {
 
 #mobile-nav { display:none; }
 
-.menu{
-  float: left;
-  width: 93.70424597364568%; /*1280/1366*/
-  height: 100%;
-}
+
 
 ul.simple-toggle{
   float: left;
@@ -672,7 +665,6 @@ footer li{
 
 }
 
-
 .plugin-social li{
   display: inline-block;
   font-family: 'Roboto', Arial, sans-serif;
@@ -695,6 +687,13 @@ footer li{
   width: 30px;
   height:30px;
 
+}
+
+
+.p-todas{
+  background: url(/images/social/plugin-todas.svg);
+  border-radius: 8px;
+  display: none !important;
 }
 
 .p-facebook{
@@ -760,6 +759,11 @@ footer li{
   font-family: 'Hind', Arial, sans-serif;
   margin: 0;
   line-height: 2.5em;
+}
+
+.filtros span {
+  float: none;
+  margin-left: 1em;
 }
 
 .filtro-lista {

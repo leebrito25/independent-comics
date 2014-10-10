@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="16px" viewBox="0 0 30 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 68</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Quadrinhos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Tablet" sketch:type="MSArtboardGroup" transform="translate(-708.000000, -366.000000)">
+            <g id="filtro" sketch:type="MSLayerGroup" transform="translate(0.000000, 349.000000)">
+                <rect id="fundo" fill="#6B6B6B" sketch:type="MSShapeGroup" x="0" y="0" width="768" height="50"></rect>
+                <path d="M723,27.5916031 L734.049832,18.3196935 C734.886799,17.6173948 736.150441,17.7259746 736.860444,18.5721239 C737.575398,19.4241724 737.463237,20.6771354 736.620982,21.3838712 L724.350168,31.6803065 C723.973903,31.9960304 723.511406,32.1478739 723.051745,32.1424977 C722.559868,32.1733014 722.056844,32.0218303 721.649832,31.6803065 L709.379018,21.3838712 C708.542051,20.6815726 708.429552,19.4182732 709.139556,18.5721239 C709.854509,17.7200754 711.107913,17.6129576 711.950168,18.3196935 L723,27.5916031 Z" id="Rectangle-68" fill="#F2E8C9" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -42,31 +42,42 @@
 
 <div class="container clearfix"> 
 
-  <header id="menu" class="header"> 
+ <header class="header mobile"> 
 
     <a href="index.html" class="logo"><img src="images/logo.png" alt="Independent Comics"></a>
 
 
     <nav class="menu">
-      <ul>
-        <li class="menu-item"><a href="#">QUADRINHOS</a></li>
-        <li class="menu-item"><a href="#">AUTORES</a></li>
-        <li class="menu-item"><a href="#">SOBRE</a></li>
+    <a id="menu-toggle" class="anchor-link" href="#"><img src="images/hamburger.svg"> Menu </a>
+      <ul class="simple-toggle" id="menu">
+        <li><a href="quadrinhos.html">QUADRINHOS</a></li>
+        <li><a href="autores.html">AUTORES</a></li>
+        <li><a href="sobre.html">SOBRE</a></li>
       </ul>
 
-   
+    <script>
+      $(document).ready(function() {
 
-    <div class="login">
-      <a href="#"><button class="btn-entrar"> Entrar </button><a>
-    </div>
+      $('#menu-toggle').click(function () {
+      $('#menu').toggleClass('open');
+      e.preventDefault();
+        });
+    
+      });
+    </script>
 
     <div class="pesquisa">
       <input type="search" class="caixa-pesquisa" name="pesquisa" value="procure por histórias e autores incríveis">
 
       <a href="#" class="btn-pesquisa"><img src="images/icons/lupa.svg"></a>
     </div>
+
+    <div class="login">
+      <a href="#"><button class="btn-entrar"> Entrar </button></a>
+    </div>
     
-    </nav>
+  </nav>
+
 
   </header>
 
@@ -75,6 +86,7 @@
         <div class="plugin-social">
           <ul>
             <li>Compartilhe!</li>
+            <li class="p-todas"><a href=""></a></li>
             <li class="p-facebook"><a href=""></a></li>
             <li class="p-twitter"><a href=""></a></li>
             <li class="p-google"><a href=""></a></li>
@@ -100,10 +112,10 @@
   <main>
   <div class="lista-1col filtros">
     <div class="filtro-title">
-     <p> Filtrar por </p>  
+     <p> Filtrar por <span><img src="images/seta-baixo.svg"></span></p>  
     </div>
 
-    <div class="filtro-lista">
+    <div class="filtro-lista esconder-1024">
       <ul>
       <li class="titulo-ordem">Ordem</li>
       <li> <input type="radio" name="ordem" value="recentes"> Mais recentes </li>
@@ -112,7 +124,7 @@
       </ul>
     </div>
 
-    <div class="filtro-lista">
+    <div class="filtro-lista esconder-1024">
       <ul>
       <li class="titulo-genero">Genêro</li>
       <li> <input type="checkbox" name="ordem" value="recentes"> Ação </li>
@@ -123,7 +135,7 @@
       <li> <input type="checkbox" name="ordem" value="alfabetica"> Drama </li>
       </ul>
     </div>
-    <p><a href="">Limpar filtros</a></p>
+    <p class="esconder-1024"><a href="">Limpar filtros</a></p>
   </div>
 
   <div class="lista-2col lista-conteudo">
