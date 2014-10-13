@@ -42,31 +42,42 @@
 
 <div class="container clearfix"> 
 
-  <header id="menu" class="header"> 
+<header class="header mobile"> 
 
     <a href="index.html" class="logo"><img src="images/logo.png" alt="Independent Comics"></a>
 
 
     <nav class="menu">
-      <ul>
-        <li class="menu-item"><a href="#">QUADRINHOS</a></li>
-        <li class="menu-item"><a href="#">AUTORES</a></li>
-        <li class="menu-item"><a href="#">SOBRE</a></li>
+    <a id="menu-toggle" class="anchor-link" href="#"><img src="images/hamburger.svg"> Menu </a>
+      <ul class="simple-toggle" id="menu">
+        <li><a href="quadrinhos.html">QUADRINHOS</a></li>
+        <li><a href="autores.html">AUTORES</a></li>
+        <li><a href="sobre.html">SOBRE</a></li>
       </ul>
 
-   
+    <script>
+      $(document).ready(function() {
 
-    <div class="login">
-      <a href="#"><button class="btn-entrar"> Entrar </button><a>
-    </div>
+      $('#menu-toggle').click(function () {
+      $('#menu').toggleClass('open');
+      e.preventDefault();
+        });
+    
+      });
+    </script>
 
     <div class="pesquisa">
       <input type="search" class="caixa-pesquisa" name="pesquisa" value="procure por histórias e autores incríveis">
 
       <a href="#" class="btn-pesquisa"><img src="images/icons/lupa.svg"></a>
     </div>
+
+    <div class="login">
+      <a href="#"><button class="btn-entrar"> Entrar </button></a>
+    </div>
     
-    </nav>
+  </nav>
+
 
   </header>
 

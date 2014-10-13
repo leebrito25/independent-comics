@@ -45,31 +45,41 @@
 
 <div class="container clearfix"> 
 
-  <header id="menu" class="header"> 
+<header class="header mobile"> 
 
     <a href="index.html" class="logo"><img src="images/logo.png" alt="Independent Comics"></a>
 
 
     <nav class="menu">
-      <ul>
-        <li class="menu-item"><a href="quadrinhos.html">QUADRINHOS</a></li>
-        <li class="menu-item"><a href="autores.html">AUTORES</a></li>
-        <li class="menu-item"><a href="#">SOBRE</a></li>
+    <a id="menu-toggle" class="anchor-link" href="#"><img src="images/hamburger.svg"> Menu </a>
+      <ul class="simple-toggle" id="menu">
+        <li><a href="quadrinhos.html">QUADRINHOS</a></li>
+        <li><a href="autores.html">AUTORES</a></li>
+        <li><a href="sobre.html">SOBRE</a></li>
       </ul>
 
-   
+    <script>
+      $(document).ready(function() {
 
-    <div class="login">
-      <a href="#"><button class="btn-entrar"> Entrar </button><a>
-    </div>
+      $('#menu-toggle').click(function () {
+      $('#menu').toggleClass('open');
+      e.preventDefault();
+        });
+    
+      });
+    </script>
 
     <div class="pesquisa">
       <input type="search" class="caixa-pesquisa" name="pesquisa" value="procure por histórias e autores incríveis">
 
       <a href="#" class="btn-pesquisa"><img src="images/icons/lupa.svg"></a>
     </div>
+
+    <div class="login">
+      <a href="#"><button class="btn-entrar"> Entrar </button></a>
+    </div>
     
-    </nav>
+  </nav>
 
 
   </header>
@@ -101,13 +111,13 @@
         <p> Leia as suas histórias preferidas  no tablet, celular e computador.</p> 
       </div>
           
-      <div class="feature">
+      <div class="feature esconder-1024">
         <img src="images/sobre/happy.svg">
         <h2> Histórias Incríveis </h2>
         <p> Você tem na palma da mão histórias de diversos genêros.</p> 
       </div>
           
-      <div class="feature">
+      <div class="feature esconder-1024">
         <img src="images/sobre/tag.svg">
         <h2> Guarde para mais tarde </h2>
         <p> Você pode seguir as histórias e autores favoritos.  </p>
@@ -121,7 +131,7 @@
 
 
     <div class="features-container-sobre">
-      <div class="feature">
+      <div class="feature esconder-1024">
         <img src="images/sobre/book-pencil.png">
         <h2> Compartilhe as suas histórias </h2>
         <p> Você pode contar as suas histórias. É rápido e sem custo algum. </p>
@@ -133,7 +143,7 @@
         <p> Suas histórias podem chegar a lugares que você nunca viu! </p> 
       </div>
           
-      <div class="feature">
+      <div class="feature esconder-1024">
         <img src="images/sobre/organizar.png">
         <h2> Organização </h2>
         <p> Você tem todos os seus trabalhos em apenas um lugar! </p> 
