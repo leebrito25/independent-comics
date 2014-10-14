@@ -79,8 +79,8 @@ header {
 
 .logo {
   float: left;
-  width: 6.29575402635432%;   /*86 / 1366 */
-  margin-top: 1.14%;
+  width: 80px;
+  margin-top: 8px;
   display: block;
 }
 
@@ -1225,6 +1225,8 @@ margin: 0 auto;
   margin: 10px 0;
 }
 
+
+
 .lista-relacionados{
   width:70%;
 
@@ -1263,6 +1265,9 @@ margin: 0 auto;
 }
 
 /*Capítulos*/
+.menu-cap{
+  display: none;
+}
 
 .capitulo{
   margin-top: 100px; 
@@ -1312,6 +1317,7 @@ margin: 0 auto;
 
 .info-autor-img img {
   margin-left: 10px;
+  display: inline;
 }
 
 
