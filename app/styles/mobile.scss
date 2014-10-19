@@ -278,15 +278,26 @@
 
 /*Capítulo*/
 
-  .rel-capitulos{
-    display: none;
-  }
 
   .capitulo {
     margin-top: 80px;
     padding: 3em 0 3em 0;
 
   }
+
+  .rel-capitulos { 
+    margin-top: 80px;
+    float: left; 
+    margin-left: -100%;
+    width: 50%;
+    height: 88% !important; 
+    z-index: 2;
+     }
+
+  body.active .rel-capitulos  { margin-left: 0; }
+  body.active .o-capitulo { margin-right: -48%; }
+
+
 
   .o-capitulo{
     width: 100%;
@@ -297,8 +308,16 @@
     width: 100% !important;
   }
 
+  .next-cap.active{
+    margin-right: -48%; 
+  }
+
   .footer-cap{
     width: 100% !important;
+  }
+
+  .footer-cap.active{
+    margin-right: -48%; 
   }
 
   .menu-cap{
@@ -308,6 +327,14 @@
 
    .menu-cap img{
     height: 44px;
+  }
+
+  .item-capitulo h3 {
+    width: 50%;
+  }
+
+  .item-capitulo p {
+    width: 50%;
   }
 
 
@@ -417,6 +444,7 @@
 
   .item-depoimento h3{
     margin: 10px 0 5px 0;
+
   }
 
 }

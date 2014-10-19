@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="styles/gallery.css">
 
   </head>
-  <body onclick="checkMenu('menu-esconder');">
+  <body>
     <!-- Add your site or app content here -->
 
 <div class="container clearfix"> 
@@ -53,7 +53,7 @@
 
 
     <nav class="menu">
-    <a href="javascript:void(0);" onclick="menuShow('menu-esconder');" id="menu-toggle" class="anchor-link" href="#" ><img src="images/hamburger.svg"> Menu </a>
+    <a id="menu-toggle" class="anchor-link" href="#" ><img src="images/hamburger.svg"> Menu </a>
     <div id="menu-esconder">
       <ul class="simple-toggle" id="menu">
         <li><a href="quadrinhos.html">QUADRINHOS</a></li>
@@ -72,26 +72,7 @@
     
       });
     </script>
-    <script type="text/javascript">
-      var flag;
-      function checkMenu(element)
-      {    if(flag==1)
-           {    menuHide(element);
-                flag=0;
-                exit;
-           }
-      if(document.getElementById(element).style.display=="block")
-           {flag=1;}
-      }
-
-      function menuShow(element,horizontal,vertical)
-      {document.getElementById(element).style.display = "block";
-           flag=0;
-      }
-
-      function menuHide(element)
-      {document.getElementById(element).style.display = "none";}
-    </script>
+  
 
     <div class="pesquisa">
       <input type="search" class="caixa-pesquisa" name="pesquisa" value="procure por histórias e autores incríveis">

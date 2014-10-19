@@ -51,6 +51,7 @@ body {
 .container {
   position: relative;
   max-width: 1366px;
+  overflow: hidden;
 }
 
 img,
@@ -97,10 +98,6 @@ header {
   font-size: 2.4em;
   line-height: 1.4em;
 }
-
-
-#mobile-nav { display:none; }
-
 
 
 ul.simple-toggle{
@@ -1288,12 +1285,15 @@ margin: 0 auto;
 }
 
 .info-nome-img{
-  margin: 15px 30%; /*125/400*/
+  width: 80%;
+  margin: 15px 10%; /*125/400*/
   float: left;
 }
 
 .info-nome-img img{
   border-radius: 4px;
+  display: block;
+  margin: 0 auto;
 }
 
 .info-nome-img h2{
@@ -1353,6 +1353,7 @@ margin: 0 auto;
   margin: 0.1em 0;
   display: block;
   float: left;
+  width: 50%;
 }
 
 .item-capitulo-foto {
@@ -1376,6 +1377,25 @@ margin: 0 auto;
 .o-capitulo h1{
   margin-bottom: 0;
 }
+
+.o-capitulo, .nav
+
+{ transition: .2s margin ease; 
+  display: block; } 
+
+
+body.active .o-capitulo:before {
+  content: ""; 
+  position: absolute; 
+  z-index: -1; top: 0; 
+  left: -100%; width: 100%; 
+  height: 100%; 
+  }
+
+.cf {
+  zoom: 1;
+}
+
 
 .quadro {
   margin-bottom: 30px;
@@ -1416,7 +1436,11 @@ margin: 0 auto;
 }
 
 .next-cap:hover{
-  background: #456AED;
+  background: #3F5CC5;
+}
+
+.next-cap:active{
+  background: #1E2F5B;
 }
 
 .next-cap p {

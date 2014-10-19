@@ -95,7 +95,7 @@
     </ul>
   </div>
 
-  <h1><a href=""><span class="menu-cap"><img src="images/btn-capitulo.svg"></span></a> Nome do capítulo </h1>
+  <h1><a id="menu-toggle-lateral" href="#mobile-nav"><span class="menu-cap"><img src="images/btn-capitulo.svg"></span></a> Nome do capítulo </h1>
 
   <div class="quadro">
     <img src="images/capitulo/quadro1.jpg">
@@ -135,7 +135,7 @@
 </a>
 
 
-<div class="lista-1col rel-capitulos">
+<div id="mobile-nav" role="navigation" class="lista-1col rel-capitulos nav cf">
   <div class="info-nome-img">
     <img src="images/capitulo/foto-historia.jpg">
     <h2>Nome da história</h2>
@@ -188,11 +188,20 @@
 
   </div>
 
-
-
-
 </div>
 
+  <script>
+
+    $(document).ready(function() {
+    
+    $('#menu-toggle-lateral').click(function (e) {
+      $('body, .next-cap, .footer-cap').toggleClass('active');
+      e.preventDefault();
+      });
+
+  });
+
+  </script>
 
   <footer class="footer-cap">
     <div class="redes-sociais">
