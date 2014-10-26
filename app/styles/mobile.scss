@@ -4,7 +4,7 @@
 /** Medium Screens -  tablets **/
 
 
-@media all and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
   .esconder-1024 {
     display: none !important;
@@ -240,17 +240,25 @@
     margin-top: 80px;
     width: 100%;
     height: 200px;
-}
+  }
   .infos-gerais {
     padding: 2em 0em 2em 6.3603221%; /*95/1366*/
 
   }
 
   .historia h1, .autor h1{
-  margin-bottom: 15px;
+    margin-bottom: 15px;
+  } 
 
+  .lista-conteudo{
+    width: 97%;
+    margin: 0 1.5%;
+  }
 
-}
+  .item-lista-foto img {
+    margin-right: 10px;
+  }
+
   .foto-interna img {
     height: 150px;
   }
@@ -372,14 +380,14 @@
   }
 }
 
-@media all and (max-width: 841px) {
+@media screen and (max-width: 841px) {
   .infos-detalhe {
     padding: 0em 3em 2em 4.6603221%; /*95/1366*/
 
   }
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
   .header-internas h1 {
     margin-left: 2.3em;
@@ -393,6 +401,36 @@
     width: 70%;
     padding: 2em 0em 2em 4.3603221%; /*95/1366*/
 
+  }
+
+  .lista-conteudo{
+    width: 98%;
+    margin: 0 1%;
+
+  }
+
+  .coluna-lista{
+    float: left;
+    margin-right: 0;
+    width: 50%;
+  }
+
+  .item-lista-foto img {
+    display: block;
+    height: 100px;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+
+  .item-lista{
+    margin: 0px 5px 30px 5px;
+    height: 110px;
+    padding: auto 0;
+  }
+
+  .item-lista h2{
+    padding: 10px 0 0 0;
+    line-height: 1;
   }
 
   .social-actions{
@@ -446,6 +484,15 @@
     margin: 10px 0 5px 0;
 
   }
+
+}
+
+@media screen and (min-width: 640px) {
+
+  .esconder-768 {
+    display: none !important;
+  }
+
 
 }
 

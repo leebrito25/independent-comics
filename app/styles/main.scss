@@ -289,8 +289,8 @@ h4 {
 
 .feature{
   width: 25.699482%;/* 248 /950*/
-  float: left;
   margin-right: 10.8421055%; /* 25.699482x3/2*/
+  float: left;
 }
 
 .feature:last-child {
@@ -528,7 +528,7 @@ li.active a, li.active a:hover {
 }
 .item-autor-home h3 {
   line-height: 1;
-  margin: 20px 0;
+  margin: 20px 0 10px 0;
 }
 
 .item-autor-foto {
@@ -602,27 +602,27 @@ footer li{
 }
 
 .facebook-footer {
- background: url(/images/icons/icn-facebook.svg);
+ background: url(../images/icons/icn-facebook.svg);
 }
 
 .facebook-footer:hover {
- background: url(/images/icons/icn-facebook-hover.svg);
+ background: url(../images/icons/icn-facebook-hover.svg);
 }
 
 .twitter-footer {
- background: url(/images/icons/icn-twitter.svg);
+ background: url(../images/icons/icn-twitter.svg);
 }
 
 .twitter-footer:hover {
-  background: url(/images/icons/icn-twitter-hover.svg);
+  background: url(../images/icons/icn-twitter-hover.svg);
 }
 
 .google-footer {
-  background: url(/images/icons/icn-google.svg);
+  background: url(../images/icons/icn-google.svg);
 }
 
 .google-footer:hover {
-  background: url(/images/icons/icn-google-hover.svg);
+  background: url(../images/icons/icn-google-hover.svg);
 }
 
 .links-footer a {
@@ -642,7 +642,7 @@ footer li{
 .btn-topo{
   float: right;
   z-index: 100;
-  background: url(/images/btn-topo.svg);
+  background: url(../images/btn-topo.svg);
 }
 .btn-topo a{
   display: block;
@@ -687,28 +687,28 @@ footer li{
 
 
 .p-todas{
-  background: url(/images/social/plugin-todas.svg);
+  background: url(../images/social/plugin-todas.svg);
   border-radius: 8px;
   display: none !important;
 }
 
 .p-facebook{
-  background: url(/images/social/plugin-facebook.svg);
+  background: url(../images/social/plugin-facebook.svg);
   border-radius: 4px;
 }
 
 .p-twitter{
-  background: url(/images/social/plugin-twitter.svg);
+  background: url(../images/social/plugin-twitter.svg);
   border-radius: 4px;
 }
 
 .p-google{
-  background: url(/images/social/plugin-google.svg);
+  background: url(../images/social/plugin-google.svg);
   border-radius: 4px;
 }
 
 .p-pinterest{
-  background: url(/images/social/plugin-pinterest.svg);
+  background: url(../images/social/plugin-pinterest.svg);
   border-radius: 4px; 
 }
 
@@ -806,7 +806,7 @@ footer li{
   display: block;
   text-align: center;
   font-family: 'Hind', Arial, sans-serif;
-  margin: 15px 0;
+  margin: 0 0 15px 0;
   line-height: 1em;
 }
 
@@ -841,6 +841,11 @@ footer li{
   border-radius: 4px;
   background: #F2F2F2;
 
+}
+
+.item-lista h2{
+  padding: 15px 0 0 0;
+  line-height: 1;
 }
 
 
@@ -887,8 +892,7 @@ margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  background-image: url(/images/quadrinhos/header-quadrinhos.jpg);
+  background-image: url(../images/quadrinhos/header-quadrinhos.jpg);
 }
 
 .header-internas {
@@ -918,8 +922,7 @@ margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  background-image: url(/images/autores/header-autores.jpg);
+  background-image: url(../images/autores/header-autores.jpg);
 }
 
 /*Página de história e autor*/
@@ -936,8 +939,7 @@ margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  background-image: url(/images/historia/header-historia.jpg);
+  background-image: url(../images/historia/header-historia.jpg);
 }
 
 .autor {
@@ -945,8 +947,7 @@ margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  background-image: url(/images/autor/header-autor.jpg);
+  background-image: url(../images/autor/header-autor.jpg);
 }
 
 
@@ -1509,14 +1510,14 @@ body.active .o-capitulo:before {
   position: relative;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/images/sobre/header-leitores.jpg);
+  background-image: url(../images/sobre/header-leitores.jpg);
 }
 
 .cartunistas{
   position: relative;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/images/sobre/header-cartunistas.jpg);
+  background-image: url(../images/sobre/header-cartunistas.jpg);
 }
 
 
@@ -1598,35 +1599,35 @@ body.active .o-capitulo:before {
   font-family:'Hind';
   font-style:normal;
   font-weight:300;
-  src: url(/fonts/hind/Hind-Light.ttf);
+  src: url(../fonts/hind/Hind-Light.ttf);
 }
 
 @font-face{
   font-family:'Hind';
   font-style:normal;
   font-weight:400;
-  src: url(/fonts/hind/Hind-Regular.ttf);
+  src: url(../fonts/hind/Hind-Regular.ttf);
 }
 
 @font-face{
   font-family:'Hind';
   font-style:normal;
   font-weight:500;
-  src: url(/fonts/hind/Hind-Medium.ttf);
+  src: url(../fonts/hind/Hind-Medium.ttf);
 }
 
 @font-face{
   font-family:'Hind'; 
   font-style:normal;
   font-weight:600;
-  src: url(/fonts/hind/Hind-Semibold.ttf);
+  src: url(../fonts/hind/Hind-Semibold.ttf);
 }
 
 @font-face{
   font-family: 'Hind';
   font-style:normal;
   font-weight:700;
-  src: url(/fonts/hind/Hind-Bold.ttf);
+  src: url(../fonts/hind/Hind-Bold.ttf);
 }
 
 /*Serif Pro 3*/
@@ -1635,21 +1636,21 @@ body.active .o-capitulo:before {
   font-family: 'Sans Serif Pro';
   font-style:normal;
   font-weight: 400;
-  src: url(/fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf);
+  src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf);
 }
 
 @font-face{
   font-family: 'Sans Serif Pro';
   font-style:normal;
   font-weight: 600;
-  src: url(/fonts/Source_Serif_Pro/SourceSerifPro-Semibold.ttf);
+  src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Semibold.ttf);
 }
 
 @font-face{
   font-family:'Sans Serif Pro'; 
   font-style:normal;
   font-weight: 700;
-  src: url(/fonts/Source_Serif_Pro/SourceSerifPro-Bold.ttf);
+  src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Bold.ttf);
 }
 
 /*Roboto*/
@@ -1657,7 +1658,7 @@ body.active .o-capitulo:before {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 300;
-  src: url(/fonts/Roboto/RobotoCondensed-Light.eot);
+  src: url(../fonts/Roboto/RobotoCondensed-Light.eot);
   src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(/fonts/Roboto/RobotoCondensed-Light.eot) format('embedded-opentype'), url(/fonts/Roboto/RobotoCondensed-Light.woff) format('woff');
 }
 
@@ -1665,7 +1666,7 @@ body.active .o-capitulo:before {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/Roboto/RobotoCondensed-Regular.eot);
+  src: url(../fonts/Roboto/RobotoCondensed-Regular.eot);
   src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(/fonts/Roboto/RobotoCondensed-Regular.eot) format('embedded-opentype'), url(/fonts/Roboto/RobotoCondensed-Regular.woff) format('woff');
 }
 
@@ -1673,7 +1674,7 @@ body.active .o-capitulo:before {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
-  src: url(/fonts/Roboto/RobotoCondensed-Bold.eot);
+  src: url(../fonts/Roboto/RobotoCondensed-Bold.eot);
   src: local('Roboto Condensed Regular'), local('RobotoCondensed-Bold'), url(/fonts/Roboto/RobotoCondensed-Bold.eot) format('embedded-opentype'), url(/fonts/Roboto/RobotoCondensed-Bold.woff) format('woff');
 }
 
@@ -1681,7 +1682,7 @@ body.active .o-capitulo:before {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 300;
-  src: url(/fonts/Roboto/RobotoCondensed-LightItalic.eot);
+  src: url(../fonts/Roboto/RobotoCondensed-LightItalic.eot);
   src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url(/fonts/Roboto/RobotoCondensed-LightItalic.eot) format('embedded-opentype'), url(/fonts/Roboto/RobotoCondensed-LightItalic.woff) format('woff');
 }
 
@@ -1689,7 +1690,7 @@ body.active .o-capitulo:before {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 400;
-  src: url(/fonts/Roboto/RobotoCondensed-Italic.eot);
+  src: url(../fonts/Roboto/RobotoCondensed-Italic.eot);
   src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url(/fonts/Roboto/RobotoCondensed-Italic.eot) format('embedded-opentype'), url(/fonts/Roboto/RobotoCondensed-Italic.woff) format('woff');
 }
 
@@ -1697,7 +1698,7 @@ body.active .o-capitulo:before {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 700;
-  src: url(/fonts/Roboto/RobotoCondensed-BoldItalic.eot);
+  src: url(../fonts/Roboto/RobotoCondensed-BoldItalic.eot);
   src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url(/fonts/Roboto/RobotoCondensed-BoldItalic.eot) format('embedded-opentype'), url(/fonts/Roboto/RobotoCondensed-BoldItalic.woff) format('woff');
 }
 
