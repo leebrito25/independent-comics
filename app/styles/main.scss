@@ -198,7 +198,7 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover, a:active{
   color: #6B6B6B;
   text-decoration: underline;
 }
@@ -456,7 +456,7 @@ li.active a, li.active a:hover {
   border-radius: 4px;
 }
 
-.destaque-quadrinho a:hover{
+.destaque-quadrinho a:hover, .destaque-quadrinho a:active{
   text-decoration: none;
   color: #3550B0; 
 }
@@ -469,7 +469,7 @@ li.active a, li.active a:hover {
   margin-right:6%; /*feeling*/
 }
 
-.coluna-itens a:hover{
+.coluna-itens a:hover, .coluna-itens a:active{
   text-decoration: none;
   color: #3550B0; 
 }
@@ -605,7 +605,7 @@ footer li{
  background: url(../images/icons/icn-facebook.svg);
 }
 
-.facebook-footer:hover {
+.facebook-footer:hover, .facebook-footer:active  {
  background: url(../images/icons/icn-facebook-hover.svg);
 }
 
@@ -613,7 +613,7 @@ footer li{
  background: url(../images/icons/icn-twitter.svg);
 }
 
-.twitter-footer:hover {
+.twitter-footer:hover, .twitter-footer:active  {
   background: url(../images/icons/icn-twitter-hover.svg);
 }
 
@@ -621,7 +621,7 @@ footer li{
   background: url(../images/icons/icn-google.svg);
 }
 
-.google-footer:hover {
+.google-footer:hover, .google-footer:active  {
   background: url(../images/icons/icn-google-hover.svg);
 }
 
@@ -837,7 +837,7 @@ footer li{
   text-decoration: none;
 }
 
-.item-lista:hover{
+.item-lista:hover, .item-lista:active {
   border-radius: 4px;
   background: #F2F2F2;
 

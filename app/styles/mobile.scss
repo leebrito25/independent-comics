@@ -342,6 +342,10 @@
     height: 44px;
   }
 
+  .filtros {
+    margin: 0;
+  }
+
   .item-capitulo h3 {
     width: 50%;
   }
@@ -349,7 +353,6 @@
   .item-capitulo p {
     width: 50%;
   }
-
 
 
 /*Sobre*/
@@ -502,6 +505,7 @@
 
   .header{
     height: 60px;
+    padding: 0 2em 0 2.5em;
   }
 
   .logo img{
@@ -511,6 +515,10 @@
   .pesquisa{
     padding: 0.2em 0;
   }
+
+  .btn-pesquisa{
+    padding: 1em 0.5em;
+}
 
   .anchor-link {
     display: block;
@@ -523,6 +531,10 @@
     margin-bottom: 0.3em;
     margin-right: 0;
     height: 30px;
+  }
+
+  ul.open{
+    margin: 0 0 0 -2.5em;
   }
 
   ul.open li a { 
@@ -634,9 +646,49 @@
     height: 50px;
   }
 
+  /*Quadrinhos*/
+
+  .header-internas {
+    margin-top: 60px;
+  }
+
+  .header-internas h1 {
+   margin-left: 1.2em;
+
+  }
+
+  .header-internas p {
+    margin-left: 2em;
+
+  }
+
+  .coluna-lista{
+    width: 94%;
+    margin: 0 3%;
+  }
+
+  .coluna-lista:last-child{
+    float: left;
+  }
+
+  .item-lista{
+    margin: 0px 0px 10px 0px;
+  }
+ 
+
+
 }
 
 @media screen and (max-width: 420px) {
+
+  .header{
+    padding: 0 1em 0 2em;
+  }
+
+
+  ul.open{
+    margin: 0 0 0 -2em;
+  }
 
   h1 {
     font-size: 3.2em;
@@ -708,6 +760,26 @@
 
   .item-footer {
     margin: 0 30px;
+  }
+
+  .header-internas h1 {
+    margin-left: 0.7em;
+    top: 80px;
+  }
+
+  .header-internas p {
+    margin-left: 1.2em;
+    top: 70px;
+  }
+
+  .coluna-lista{
+    width: 97%;
+    margin: 0 1.5%;
+  }
+
+  .plugin {
+    margin-right: 0.5em;
+    margin-top: 1.5em;
   }
 
 
