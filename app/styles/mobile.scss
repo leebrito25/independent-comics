@@ -72,7 +72,7 @@
     padding: 1.5em 1em;
   }
 
-  ul.open li a:hover { 
+  ul.open li a:hover, ul.open li a:active,  { 
     background-color: #BFBFBF; 
     color: #30302A;
     padding: 1.5em 1em;
@@ -207,7 +207,7 @@
   }
 
   .plugin {
-    margin-right: 3em;
+    margin-right: 1em;
   }
 
   .container-breadcrumbs {
@@ -247,8 +247,8 @@
     height: 200px;
   }
   .infos-gerais {
+    width: 75%;
     padding: 2em 0em 2em 6.3603221%; /*95/1366*/
-
   }
 
   .historia h1, .autor h1{
@@ -269,13 +269,20 @@
   }
 
   .seguir {
-    margin-right: 17em;
-    margin-top: 6em;
+    padding-top: 0;
 
+  }
+
+  .info-autor{
+    padding-top: 0;
   }
 
   .info-autor img{
     height: 50px;
+  }
+
+  .social-actions{
+    width: 25%;
   }
 
   .item-historia:active{
@@ -288,6 +295,7 @@
     background: #F5F5D6;
 
   }
+
 
 /*Capítulo*/
 
@@ -397,6 +405,10 @@
 
 @media screen and (max-width: 768px) {
 
+  .esconder-768-original {
+    display: none !important;
+  }
+
   .header-internas h1 {
     margin-left: 2.3em;
   }
@@ -406,7 +418,7 @@
   }
 
   .infos-gerais {
-    width: 70%;
+    width: 90%;
     padding: 2em 0em 2em 4.3603221%; /*95/1366*/
 
   }
@@ -443,7 +455,7 @@
 
   .social-actions{
     float: right;
-    width: 30%;
+    width: 10%;
   }
 
   .plugin {
@@ -455,8 +467,6 @@
   }
 
   .seguir {
-    margin-right: 10em;
-    margin-top: 6em;
 
   }
 
@@ -541,7 +551,7 @@
     padding: 1.3em 1em;
   }
 
-  ul.open li a:hover { 
+  ul.open li a:hover, ul.open li a:active  { 
     padding: 1.3em 1em;
   }
 
@@ -598,6 +608,7 @@
 
   .link-mais{
     margin-right: 0.5em;
+    margin-bottom: 15px;
   }
 
   .btn-cadastro {
@@ -619,6 +630,12 @@
     margin-top: 1.5%;
     margin-bottom: 1.5%;
     margin-right: 1.5em;
+  }
+
+  .call-action-foo{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
 
   footer {
@@ -672,14 +689,186 @@
   }
 
   .item-lista{
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 5px 0px;
+  }
+
+  /*Histórias - Autores*/
+
+  .header-internas1 {
+    margin-top: 60px;
+  }
+
+  .infos-gerais {
+    padding: 2em 0em 1em 4.3603221%; /*95/1366*/
+  }
+
+  .historia h1, .autor h1 {
+    margin-left: 20px;
+  }
+
+  .rating {
+    margin-left: 20px;
+    padding: 0;
+    padding-top: 25px;
+  }
+
+  .tags {
+    margin-left: 20px;
+    width: 50%;  
+  }
+
+  .tags li {
+    margin-top: 10px;
+    padding-top: 0;
+  }
+
+  .info-autor {
+    clear: left;
+    padding-top: 40px;
+  }
+
+  .seguir {
+    padding-top: 4.5em;
+  }
+
+  .container-breadcrumbs{
+    clear: left;
+  }
+
+  .infos-detalhe {
+    padding: 0 4.5%;
+  }
+  
+
+  .infos-detalhe p {
+    width: 100%;
+    margin: 0;
+
+  }
+
+  .infos-detalhe ul {
+    width: 100%;
+    margin: 20px 0;
+    display:block;
+  }
+
+  .infos-detalhe li {
+    display: inline-block;
+    margin: 0 1em 0 1em;
+  }
+
+  .main {
+    width: 100%;
+    padding: 0 4%;
+  }
+
+  .rel-capitulos {
+    margin-top: 60px;
   }
  
+  .rel-capitulos {
+    width: 70%;
+  }
 
+  .capitulo {
+    margin-top: 60px;
+  }
+
+  body.active .o-capitulo { margin-right: -68%; }
+
+  .next-cap.active{
+    margin-right: -30%; 
+  }
+
+  .footer-cap.active{
+    margin-right: -30%; 
+  }
+
+  .info-nome-img {
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  .info-nome-img img {
+    height: 110px;
+  }
+
+  .info-autor-img img {
+    height: 40px;
+  }
+
+   .info-autor-img {
+    margin: 5px 25%;
+  }
+
+  .item-capitulo-foto img{
+    margin-right: 10px;
+  }
+
+  .item-capitulo {
+    margin-bottom: 5px;
+  }
+
+  .lista-capitulos{
+    margin: 5px 4%; /*10/400*/
+  }
+
+  .next-cap {
+    height: 80px;
+  }
+
+  .item-historia {
+    margin: 0px 0px 5px 0px
+  }
+
+  /*--Sobre--*/
+  .call-action h1 {
+    line-height: 2;
+  }
+
+  .banner-class{
+    height: 180px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .banner-class p {
+    margin-left: 1.5em;
+    top:140px;
+  }
+
+  .sobre-sub {
+    margin-left: 1em;
+  }
+
+  .depoimentos-sobre {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .item-depoimento {
+    width: 90%;
+  }
+  .item-depoimento:first-child {
+    margin: 0 5%;
+  }
+
+  .item-depoimento h3 {
+    margin: 20px 0 5px 0;
+  }
+
+  .feature-review {
+    width: 100%;
+    margin: 0;
+  }
 
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 400px) {
+
+  .esconder-320 {
+    display: none !important;
+  }
 
   .header{
     padding: 0 1em 0 2em;
@@ -717,7 +906,7 @@
     width: 100%;
     clear: left;
     height: 140px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   .item-quadrinho-home:first-child {
@@ -779,9 +968,136 @@
 
   .plugin {
     margin-right: 0.5em;
-    margin-top: 1.5em;
+    margin-top: 2em;
   }
 
+  .header-internas1 {
+    height: 150px;
+  }
+
+  .infos-gerais{
+    padding-left: 5%;
+  }
+
+  .foto-interna img {
+    height: 110px;
+  }
+
+  .p-todas {
+    background-image: url(../images/social/plugin-todas-mobile.svg);
+  }
+
+  .plugin-social a {
+    width: 30px;
+    height: 30px;
+  }
+
+  .historia h1, .autor h1 {
+    margin-bottom: 5px;
+    margin-left: 15px;
+    padding-top: 5px;
+  }
+
+  .rating {
+    padding-top: 0;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+
+  .tags{
+    margin-left: 15px;
+    padding: 0;
+  }
+
+  .tags li {
+    margin-top: 3px;
+    margin-right: 1px;
+    padding: 0 0.4em;
+  }
+
+  .info-autor {
+    padding-top: 30px; 
+    margin-left: 10px;
+    width: 60%;
+  }
+
+  .espaco-autor {
+    padding-top: 15px !important;
+  }
+
+  .info-autor img {
+    height: 40px;
+    margin-left: 10px !important;
+  }
+
+  .btn-seguir {
+    width: 100px;
+    line-height: 30px;
+    font-size: 2.8em;
+  }
+
+   .infos-detalhe li {
+    margin: 0 0.5em 0 0.5em;
+  }
+
+  .seguir {
+    padding-top: 3.5em;
+  }
+
+  .item-historia-foto img {
+    margin-right: 10px;
+  }
+
+  .container-breadcrumbs li {
+    margin-right: 0.5em;
+  }
+
+  .rel-capitulos {
+    width: 85%;
+  }
+
+  body.active .o-capitulo { margin-right: -83%; }
+
+  .next-cap.active{
+    margin-right: -10%; 
+  }
+
+  .footer-cap.active{
+    margin-right: -10%; 
+  }
+
+  .info-autor-img {
+    margin: 5px 23%;
+  }
+
+  .item-capitulo h3 {
+    width: 60%;
+  }
+
+  .lista-capitulos{
+  margin: 5px 2%; /*10/400*/
+  width: 96%;
+  }
+
+  .next-cap p {
+    margin: 5.6% 0;
+  }
+
+  .banner-class{
+    height: 150px;
+  }
+  .banner-class p {
+    top:120px;
+  }
+
+  .item-depoimento h3 {
+    margin: 10px 0 5px 0;
+  }
+
+  .feature {
+    width: 80%;
+    margin: 0 10%;
+  }
 
 
 
