@@ -134,8 +134,8 @@
     width: 35%;
     margin-left: 10%;
     margin-right: 0;
-
   }
+
   .coluna-itens:last-child{
     width: 35%;
     margin-right: 10%;
@@ -360,6 +360,14 @@
 
   .item-capitulo p {
     width: 50%;
+  }
+
+  .desativado{
+    opacity: 1;
+  }
+
+  .ativado {
+    background: #F2F2F2;
   }
 
 
@@ -895,8 +903,8 @@
     float: left;
     width: 95%;
     margin: 0 2.5%;
-
   }
+  
   .coluna-itens:last-child{
     width: 95%;
     margin: 0 2.5%;

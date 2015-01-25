@@ -195,7 +195,7 @@ ul.simple-toggle li a:hover {
 
 a {
   font-weight: 600;
-  color: #6B6B6B;
+  color: #323232;
   text-decoration: none;
 }
 
@@ -1467,7 +1467,7 @@ body.active .o-capitulo:before {
   opacity: 0.5;
 }
 
-.desativado:hover{
+.desativado:hover, .desativado:active{
   opacity: 1;
   border-radius: 4px;
   background: #F2F2F2;
